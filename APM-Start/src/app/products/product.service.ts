@@ -11,7 +11,7 @@ import { IProduct } from "./product";
 
 export class ProductService {
 
-    private _productUrl = './api/products/products.json';
+    private _productUrl = '/api/products/products.json';
 
     constructor(private _http: HttpClient) {}
 

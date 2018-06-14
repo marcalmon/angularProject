@@ -9,7 +9,7 @@ import { IProduct } from './product';
 })
 export class ProductDetailComponent implements OnInit {
 
-    pageTitle: string = 'Product Detail'
+    pageTitle: string = 'Product Detail';
     product: IProduct;
 
   constructor(private _route: ActivatedRoute,
